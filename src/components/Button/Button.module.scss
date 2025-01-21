@@ -27,6 +27,14 @@
   }
 }
 
+.disabled {
+  background-color: #AAAAAA;
+  &:hover {
+    border: none;
+    background-color: #AAAAAA;
+  }
+}
+
 .icon {
   visibility: visible;
 }

@@ -45,7 +45,6 @@ const FirmFacts = () => {
         <FirmFactCard
           variant="border"
           buttonVariant="icon"
-          buttonDisabled={true}
           buttonText="This is a two-line button\nthat terminates with..."
         />
       </div>

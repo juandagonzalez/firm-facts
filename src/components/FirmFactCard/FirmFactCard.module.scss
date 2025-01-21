@@ -1,0 +1,27 @@
+.firmFactCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+
+  &.default {
+    background-color: #ffffff;
+  }
+
+  &.border {
+    background-color: #ffffff;
+  }
+
+  &.border:hover {
+    background-color: #ffffff;
+    border: 10px solid #07C06A;
+    cursor: pointer;
+  }
+
+  &:hover {
+    background-color: #07C06A;
+    cursor: pointer;
+  }
+}

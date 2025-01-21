@@ -1,0 +1,47 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 80%;
+  height: 70px;
+  padding: 8px 16px;
+  border-radius: 70px;
+  border: none;
+  line-height: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: left;
+  background-color: #1f2a37;
+  color: #ffffff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+
+  &.default {
+    background-color: #1f2a37;
+  }
+
+  &:hover {
+    background-color: #07C06A;
+    border: 2px solid white;
+    box-shadow: 0 0 0 3px #22c55e80;
+  }
+}
+
+.icon {
+  visibility: visible;
+}
+
+.text {
+  flex: 1;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.button.icon .icon {
+  visibility: visible;
+}
+
+.button.icon .text {
+  visibility: visible;
+}

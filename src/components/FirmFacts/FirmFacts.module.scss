@@ -7,7 +7,7 @@
   padding: 16px;
   height: 100vh;
   min-height: 100vh;
-  font-size: calc(14px + 0.5vw);
+  font-size: calc(24px + 0.5vw);
   max-width: 1680px;
   min-width: 768px;
   margin: 0 auto;
@@ -22,7 +22,7 @@
   .firmFactsContainer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    font-size: calc(14px + 0.5vw);
+    font-size: calc(18px + 0.5vw);
   }
 }
 
@@ -30,13 +30,13 @@
   .firmFactsContainer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    font-size: calc(12px + 0.5vw);
+    font-size: calc(14px + 0.5vw);
   }
 }
 
 @media (max-width: 479px) {
   .firmFactsContainer {
     grid-template-columns: 1fr;
-    font-size: calc(10px + 0.5vw);
+    font-size: calc(12px + 0.5vw);
   }
 }

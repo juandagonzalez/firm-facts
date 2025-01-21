@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  width: 80%;
+  width: 90%;
   height: 70px;
   padding: 8px 16px;
   border-radius: 70px;
@@ -14,7 +14,7 @@
   text-align: left;
   background-color: #1f2a37;
   color: #ffffff;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  transition: all 0.3s ease;
 
   &.default {
     background-color: #1f2a37;
